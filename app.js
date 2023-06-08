@@ -67,6 +67,8 @@ calculate = () => {
 playAgain.addEventListener("click", () => {
   modalCard.classList.toggle("show");
   window.location.reload()
+  // yourScore.textContent="0"
+  // pcScore.textContent="0"  
 
 });
 
